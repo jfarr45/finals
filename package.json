@@ -4,6 +4,9 @@
   "author": "Ionic Framework",
   "homepage": "http://ionicframework.com/",
   "private": true,
+  "engines": {
+    "node": "9.x"
+  },
   "scripts": {
     "start": "ionic-app-scripts serve",
     "clean": "ionic-app-scripts clean",
@@ -27,7 +30,10 @@
     "ionicons": "3.0.0",
     "rxjs": "5.5.11",
     "sw-toolbox": "3.6.0",
-    "zone.js": "0.8.29"
+    "zone.js": "0.8.29",
+    "@ionic/app-scripts": "3.2.4",
+    "typescript": "2.6.2",
+    "ionic": "3.20.0"
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.2.4",
